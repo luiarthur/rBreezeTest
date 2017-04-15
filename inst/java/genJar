@@ -1,5 +1,0 @@
-#!/bin/bash
-
-cd rBreeze
-sbt assembly
-mv target/scala-2.11/rBreeze_2.11-0.1.0.jar ../
