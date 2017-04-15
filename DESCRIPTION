@@ -1,0 +1,13 @@
+Package: rBreezeTest
+Title: A demo package that uses sbt, scala, breeze
+Version: 0.0.0.9000
+Authors@R: person("Arthur", "Lui", email = "luiarthur@ucsc.edu", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends: R (>= 3.3.3)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: rscala
+RoxygenNote: 6.0.1.9000
+SystemRequirements: Scala (>= 2.12), sbt (>= 0.13)
+
