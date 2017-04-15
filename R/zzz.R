@@ -6,7 +6,7 @@
     # Compile the jar from src
     cd_path <- paste0("cd ",lib_java_path, "/rBreeze;")
     compile_jar <- "sbt assembly;"
-    mv_jar <- "mv target/scala-2.11/rBreeze_2.11-0.1.0.jar ../"
+    mv_jar <- "mv target/scala-2.11/rBreeze-assembly-0.1.0.jar ../"
     system(paste(cd_path, compile_jar, mv_jar))
   }
   rscala::.rscalaPackage(pkgname)
