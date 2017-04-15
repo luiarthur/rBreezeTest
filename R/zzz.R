@@ -6,10 +6,10 @@
 
   if (no_jar) {
     # Compile the jar from src
-
-    # Edit these lines accordingly
-    cd_path <- paste0("cd ",lib_java_path, "/rBreeze;")
     compile_jar <- "sbt assembly;"
+                                           #TO EDIT#
+    cd_path <- paste0("cd ",lib_java_path, "/rBreeze;")
+                         ########## TO EDIT ##################
     mv_jar <- "mv target/scala-2.11/rBreeze-assembly-0.1.0.jar ../"
 
     system(paste(cd_path, compile_jar, mv_jar))
