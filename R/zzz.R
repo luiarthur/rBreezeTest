@@ -1,6 +1,6 @@
 .onLoad <- function(libname, pkgname) {
   lib_java_path <- paste0(libname, "/", pkgname, "/java")
-  jars <- grep("*.jar", list.files())
+  jars <- grep("*.jar", list.files(lib_java_path))
   no_jar <- identical(jars, integer(0))
   if (no_jar) {
     # Compile the jar from src
